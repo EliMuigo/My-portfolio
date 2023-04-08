@@ -12,7 +12,7 @@ body{
 #header{
     width: 90%;
     height: 90vh;
-    background-image: url(Eli/Elishiba.jpeg);
+    background-image: url("https://ik.imagekit.io/rqgr1v7qd/Elishiba.jpeg?updatedAt=1678350102150");
     background-size:  cover ;
     background-position:right ;
 }
