@@ -12,7 +12,7 @@ body{
 #header{
     width: 90%;
     height: 90vh;
-    background-image: url("https://ik.imagekit.io/rqgr1v7qd/Elishiba.jpeg?updatedAt=1678350102150");
+    background-image: url(Eli/Elishiba.jpeg);
     background-size:  cover ;
     background-position:right ;
 }
@@ -265,3 +265,62 @@ form.btn3{
     margin-top: 20px;
     cursor: pointer;
 }
+
+/*------responsive-----*/
+nav.fas{
+    display: none;
+}
+@media only screen and (max-width:600px){
+    #header{
+        background-image:url(/Eli/Elishiba.jpeg);
+    }
+    .header-text{
+        margin-top: 100%;
+        font-size: 16px;
+    }
+    .header-text h1{
+        font-size: 30px;
+    }
+    nav.fs{
+        display: block;
+        font-size: 25px;
+    }
+    nav ul{
+        background:#ff004f;
+        position:fixed;
+        top:0;
+        right:-200px;
+        width:100vh;
+        padding-top:50px;
+        z-index: 2;
+        transition: right 0.5s;
+        }
+        nav ul li{
+            display: block;
+            margin: 25px;
+        }
+        nav ul .fas{
+            position: absolute;
+            cursor: pointer;
+            top:25px;
+            left:25px;
+        }
+        .sub-title{
+            font-size: 40px;
+        }
+        .about-col-1 , .about-col-2{
+            flex-basis: 100%;
+        }
+        .about-col-1{
+            margin-bottom:30px ;
+        }
+        .about-col-2{
+            font-size: 14px;
+        }
+        .tab-links{
+            font-size:14px ;
+            margin-right: 20px;
+        }
+    }
+
+
